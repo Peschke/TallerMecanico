@@ -1,0 +1,7 @@
+{
+  "workspace": ["./crear-usuario", "./notificar-cliente"],
+  "compilerOptions": {
+    "lib": ["deno.window"],
+    "strict": true
+  }
+}

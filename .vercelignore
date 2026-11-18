@@ -1,0 +1,11 @@
+# Vercel solo construye el frontend; las Edge Functions se despliegan en Supabase
+/supabase
+
+# Se regeneran en el build de Vercel (npm install + npm run build)
+/node_modules
+/dist
+
+# Las variables van en Vercel → Settings → Environment Variables, no en archivos
+.env
+.env.*
+!.env.example
